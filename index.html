@@ -50,6 +50,14 @@ header.hero{
   color:var(--black); margin:0 0 30px;
 }
 .hero-id b{color:var(--blue); font-weight:500;}
+.hero-name{
+  font-family:var(--sans);
+  font-size:24px;
+  font-weight:700;
+  color:var(--ink);
+  letter-spacing:-.02em;
+  margin-right:4px;
+}
 .hero h1{
   font-family:var(--serif); font-weight:700;
   font-size:clamp(30px,5.4vw,58px); line-height:1.32;
@@ -206,7 +214,7 @@ a:focus-visible, .chip:focus-visible{outline:2px solid var(--blue); outline-offs
 
 <header class="hero">
   <div class="wrap">
-    <p class="hero-id">양승범 &nbsp;/&nbsp; <b>Information Security, Infrastructure</b> &nbsp;/&nbsp;</p>
+    <p class="hero-id"><span class="hero-name">양승범</span> &nbsp;/&nbsp; <b>Information Security, Infrastructure</b> &nbsp;/&nbsp;</p>
     <h1 class="serif">나눠둔 경계 하나가,<br><em>데이터를 지켰습니다.</em></h1>
     <p>제약 제조 현장에서 5년간 무엇이 기밀이고 어디까지 열어줄 것인가를 판단하고 통제해온 인프라 보안 담당자입니다. 실험실 데이터를 업무망에서 분리해둔 판단이, 실제 랜섬웨어 감염 사고에서 시험 데이터 전량을 지켜냈습니다.</p>
     <div class="hero-meta">
